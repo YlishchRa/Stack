@@ -51,7 +51,7 @@ T stack<T>::top()
 {
 	if (!isEmpty())
 		return arr[length];
-	else return -845843543;
+	else return T();
 }
 
 template<typename T>
